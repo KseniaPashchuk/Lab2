@@ -23,7 +23,7 @@ namespace Lab2.model
         public int Power { get => power; set => power = value; }
         public List<double> Coefficients { get => coefficients; set => coefficients = value; }
 
-        public double getCoefficient(int power)
+        public double GetCoefficient(int power)
         {
             if (power >= Coefficients.Count)
             {

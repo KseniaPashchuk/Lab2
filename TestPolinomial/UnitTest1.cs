@@ -19,11 +19,11 @@ namespace Tests
         }
 
         [Test]
-        public void test_calculatePolinomialSum()
+        public void Test_calculatePolinomialSum()
         {
-            Polinomial expectedResult = new Polinomial(4, new List<double>() {3, 6, 6, 4, 5 });
-            Polinomial actualResult = PolinomialActions.calculatePolinomialSum(polinomials);            
-            
+            Polinomial expectedResult = new Polinomial(4, new List<double>() { 3, 6, 6, 4, 5 });
+            Polinomial actualResult = PolinomialActions.CalculatePolinomialSum(polinomials);
+
             Assert.AreEqual(expectedResult, actualResult);
         }
     }

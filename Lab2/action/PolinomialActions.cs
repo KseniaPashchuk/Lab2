@@ -12,7 +12,7 @@ namespace Lab2.action
         {
         }
         
-        public static Polinomial calculatePolinomialSum(List<Polinomial> polinomials)
+        public static Polinomial CalculatePolinomialSum(List<Polinomial> polinomials)
         {
             Polinomial result = new Polinomial();
             int maxPower = 0;
